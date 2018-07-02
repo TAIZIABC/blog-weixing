@@ -1,0 +1,17 @@
+<view class='publish'>
+<form bindsubmit="formSubmit">
+  <view class='input-wraper'>
+      <input type='text' placeholder='{{msg.title}}' placeholder-class='title'></input>
+  </view>
+  <view class='desc'>
+     <textarea>{{msg.desc}}</textarea>
+  </view>
+  <view class='img-wraper'>
+    <zan-button type="primary" bindtap='chose'>选着图片</zan-button>
+  </view>
+  <view class='pre-img' wx:if='{{imgSrc }}'>
+      <image src='{{imgSrc}}' class='pre-img-item'></image>
+  </view>
+  <button formType="submit" type='primary'>发布</button>
+</form>
+</view>

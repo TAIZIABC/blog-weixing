@@ -1,0 +1,15 @@
+<view class='personal'>
+  <view class='user-info'>
+      <image bindtap="bindViewTap" class="userinfo-avatar" model='aspectFit' src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view >
+    <zan-cell-group class='btn-group'>
+    <zan-cell title="我的文章" is-link></zan-cell>
+    <zan-cell title="我的收藏" is-link url="/pages/logs/logs"></zan-cell>
+    <zan-cell title="我的分享" is-link url="/pages/logs/logs"></zan-cell>
+    <zan-cell title="我的评论" is-link url="/pages/logs/logs"></zan-cell> 
+  </zan-cell-group>
+  </view>
+  
+</view>

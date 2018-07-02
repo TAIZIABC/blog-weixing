@@ -1,0 +1,19 @@
+<view class='detail'>
+  <view class='img'>
+    <image src='https://mp.weixin.qq.com/debug/wxadoc/dev/image/cat/0.jpg?t=2018518' mode='widthFix'></image>
+  </view>
+  <view class='title'>
+    <text>{{ article.title }}</text>
+  </view>
+  <view class='desc'>
+    <view class='author'>作者：{{ article.author }}</view>
+    <view class='like-num'>收藏数：{{ article.like_num }}</view>
+    <view class='time'>发布于：{{ article.time }}</view>
+  </view>
+  <view class='content'>
+    <text>{{ article.content }}</text>
+  </view>
+  <view class='soucan-wraper'>
+    <view class='like-btn'>收藏</view>
+  </view>
+</view>

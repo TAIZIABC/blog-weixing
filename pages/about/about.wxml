@@ -1,0 +1,8 @@
+<view class='search'>
+<view class='input-wraper'>
+  <input type='text'  placeholder='在此输入要搜索的文章' placeholder-class="search-placeholder" focus bindchange='fun'></input>
+</view>
+  <view class='msg'>
+    <text>没有更多内容了</text>
+  </view>
+</view>

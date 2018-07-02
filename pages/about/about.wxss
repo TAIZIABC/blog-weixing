@@ -1,0 +1,21 @@
+/* pages/about/about.wxss */
+.input-wraper{
+  width: 100%;
+  display:flex;
+  justify-content:center;
+  border-bottom:1rpx solid #ccc;
+  padding:20rpx 40rpx;
+}
+.search-placeholder {
+  color: #ccc;
+  font-size: 38rpx;
+  text-align: center;
+}
+.msg{
+  width: 100%;
+  display:flex;
+  padding-top: 8px;
+  justify-content:center;
+  color:#ccc;
+  font-size: 15px;
+}

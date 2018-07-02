@@ -1,0 +1,23 @@
+.input-wraper{
+  width: 100%;
+  height: 30px;
+  padding-top: 5px; 
+  padding-left: 4px; 
+  border-bottom: 1rpx solid #ccc;
+}
+.title{
+  font-size: 15px;
+  color: #ccc;
+}
+.desc{
+  font-size: 15px;
+  color: #ccc;
+  padding-left:4px; 
+  border-bottom: 8px solid #ccc;
+}
+.img-wraper{
+  border-bottom: 8px solid #ccc;
+}
+.pre-img{
+   border-bottom: 8px solid #ccc;
+}
